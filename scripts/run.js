@@ -5,6 +5,12 @@ const main = async () => {
     console.log("Contract deployed to:", waveContract.address);
   };
   
+
+  console.log("Contract deployed to:", waveContract.address);
+  console.log("Contract deployed to:",owner.address); 
+
+  let waveCount; 
+  
   const runMain = async () => {
     try {
       await main();
